@@ -79,9 +79,31 @@ Add this to your MCP config file (replace `YOUR_API_KEY`):
 | `get_subgraph_info` | Get metadata and deployment details |
 | `get_query_volume` | Retrieve 30-day query statistics |
 
-## Example Queries
+## Querying Subgraphs
 
-Once configured, ask your AI agent natural language questions:
+### You Don't Need to Know Deployment IDs!
+
+Just describe what you want in natural language:
+
+```
+"Find Uniswap subgraphs and show me the top pools"
+"Search for lending protocol subgraphs"
+"What subgraphs track ENS domains?"
+```
+
+The AI will search The Graph Network and find the right subgraph for you.
+
+### Or Use Specific Deployment IDs (Optional)
+
+For precise control, you can specify a deployment ID:
+
+```
+"Query subgraph 5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV for top 10 pools"
+```
+
+See [Popular Subgraphs](docs/popular-subgraphs.md) for common deployment IDs.
+
+### Example Queries
 
 ```
 "What are the top Uniswap V3 pools by volume?"
@@ -95,7 +117,7 @@ Once configured, ask your AI agent natural language questions:
 "Search for subgraphs that index contract 0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
 ```
 
-See [Example Queries](examples/queries.md) for more.
+See [Example Queries](examples/queries.md) for 100+ more examples.
 
 ## AI Agent Skills
 
@@ -108,6 +130,7 @@ This repo includes skill definitions for integrating subgraph capabilities into 
 | Document | Description |
 |----------|-------------|
 | [Getting API Keys](docs/getting-api-keys.md) | How to obtain and manage API keys |
+| [Popular Subgraphs](docs/popular-subgraphs.md) | Common subgraph deployment IDs |
 | [Claude Desktop Setup](docs/claude-desktop.md) | Configure Claude Desktop app |
 | [Claude Code Setup](docs/claude-code.md) | Configure Claude Code CLI |
 | [Cursor Setup](docs/cursor.md) | Configure Cursor IDE |
