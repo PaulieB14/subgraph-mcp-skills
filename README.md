@@ -16,7 +16,19 @@ Subgraph MCP is an open-source implementation of [Anthropic's Model Context Prot
 
 ## Quick Start
 
-### 1. Get Your API Key
+### Need Help? Let an AI Agent Set It Up!
+
+If you're not sure how to configure MCP, just ask your AI assistant:
+
+```
+"Help me set up Subgraph MCP"
+```
+
+The agent can walk you through the entire setup process interactively, including getting your API key and configuring your client. See [Agent-Assisted Setup](docs/agent-setup.md) for how this works.
+
+### Manual Setup
+
+#### 1. Get Your API Key
 
 1. Go to [Subgraph Studio](https://thegraph.com/studio/)
 2. Connect your wallet (MetaMask, Coinbase Wallet, WalletConnect, or Safe)
@@ -26,7 +38,7 @@ Subgraph MCP is an open-source implementation of [Anthropic's Model Context Prot
 
 > See [Getting API Keys](docs/getting-api-keys.md) for detailed instructions.
 
-### 2. Configure Your AI Client
+#### 2. Configure Your AI Client
 
 Choose your AI client and follow the setup guide:
 
@@ -38,7 +50,7 @@ Choose your AI client and follow the setup guide:
 | Cline | [Setup Guide](docs/cline.md) | `cline_mcp_settings.json` |
 | OpenClaw | [Setup Guide](docs/openclaw.md) | `~/.openclaw/openclaw.json` |
 
-### 3. Basic Configuration
+#### 3. Basic Configuration
 
 Add this to your MCP config file (replace `YOUR_API_KEY`):
 
@@ -129,6 +141,7 @@ This repo includes skill definitions for integrating subgraph capabilities into 
 
 | Document | Description |
 |----------|-------------|
+| [Agent-Assisted Setup](docs/agent-setup.md) | Let an AI agent configure MCP for you |
 | [Getting API Keys](docs/getting-api-keys.md) | How to obtain and manage API keys |
 | [Popular Subgraphs](docs/popular-subgraphs.md) | Common subgraph deployment IDs |
 | [Claude Desktop Setup](docs/claude-desktop.md) | Configure Claude Desktop app |
