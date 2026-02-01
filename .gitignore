@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API Keys (never commit these!)
+**/api-key*
+**/apikey*
+**/*secret*
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
