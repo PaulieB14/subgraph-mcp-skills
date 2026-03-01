@@ -1,0 +1,33 @@
+{
+  "name": "subgraph-mcp-skills",
+  "version": "1.0.0",
+  "description": "AI agent skills for querying The Graph subgraphs via MCP tools. Works with Claude Code, Cursor, Gemini CLI, and more.",
+  "author": "PaulieB14",
+  "license": "MIT",
+  "keywords": [
+    "thegraph",
+    "subgraph",
+    "blockchain",
+    "indexing",
+    "graphql",
+    "web3",
+    "mcp",
+    "claude-code",
+    "cursor",
+    "gemini-cli",
+    "agent-skills",
+    "ai-agent"
+  ],
+  "bin": {
+    "subgraph-mcp-skills": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulieB14/subgraph-mcp-skills"
+  },
+  "homepage": "https://github.com/PaulieB14/subgraph-mcp-skills#readme"
+}
